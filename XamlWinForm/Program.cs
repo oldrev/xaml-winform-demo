@@ -27,7 +27,6 @@ namespace XamlWinForm
                     services.AddSingleton<IHostLifetime, WindowsFormsLifetime>();
                     services.AddSingleton(form);
                     services.AddHostedService<WindowsFormsHostedService<Form>>();
-                    // services.AddSingleton<IHostBuilder>();
                 });
     }
 }
