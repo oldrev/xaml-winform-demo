@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Form1.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OswaldTechnologies.Extensions.Hosting.WindowsFormsLifetime" Version="0.0.3" />
+    <PackageReference Include="Portable.Xaml" Version="0.26.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Form1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

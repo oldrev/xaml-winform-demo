@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<swf:Form ClientSize="568, 379" Location="50, 50" Name="Form1" Text="Form From XAML!" 
+          xmlns="clr-namespace:XamlWinForm;assembly=XamlWinForm" 
+          xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms">
+    <swf:Form.Controls>
+        <swf:Button Location="370, 212" Name="button1" TabIndex="0" Text="Click Me!" 
+             UseVisualStyleBackColor="True" />
+    </swf:Form.Controls>
+</swf:Form>
